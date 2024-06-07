@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: aop-lib
+aspect:
+  config:
+    extensions-level: 3
+    correlation-name: correlation_id
+    error:
+      queue-name: process.error.v1
+      enable-handle: true
+    exclusions:
+      packages:
+      methods: temPera

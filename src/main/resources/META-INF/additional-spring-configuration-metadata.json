@@ -1,0 +1,8 @@
+{
+  "properties": [
+    {
+      "name": "aspect.config.extensions-level",
+      "type": "java.lang.String",
+      "description": "Testando"
+  }
+] }
